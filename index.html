@@ -1,0 +1,219 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel=" stylesheet" href="styles.css">
+    <title>Shaynes Okay Ukay</title>
+</head>
+
+<body>
+    <nav id="nav">
+        <div class="navTop">
+            <div class="navItem">
+            </div>
+            <div class="navItem">
+                <div class="search">
+                    <input type="text" placeholder="Search..." class="searchInput">
+                    <img src="search icon.png" width="20" height="20" alt="" class="searchIcon">
+                </div>
+            </div>
+        </div>
+        <div class="navBottom">
+            <h3 class="menuItem">Dress</h3>
+            <h3 class="menuItem">Shirts</h3>
+            <h3 class="menuItem">Slacks</h3>
+            <h3 class="menuItem">Shoes</h3>
+        </div>
+    </nav>
+    <div class="slider">
+        <div class="sliderWrapper">
+            <div class="sliderItem">
+                <img src="dress.jpg" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="shirts.jpg" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="pants.jpg" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="shoes.jpg" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="./img/hippie.png" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">HIPPIE</br> NEW</br> SEASON</h1>
+                <h2 class="sliderPrice">$99</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+        </div>
+    </div>
+   
+    <div class="features">
+        <div class="feature">
+            <img src="free-shipping.png" alt="" class="featureIcon">
+            <span class="featureTitle">FREE SHIPPING</span>
+            <span class="featureDesc">Free shipping on all orders.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="gift-card.png" alt="">
+            <span class="featureTitle">GIFT CARDS</span>
+            <span class="featureDesc">Buy gift cards and use coupon codes easily.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="contact-us.png" alt="">
+            <span class="featureTitle">CONTACT US!</span>
+            <span class="featureDesc">Keep in touch via email and support system.</span>
+        </div>
+    </div>
+
+    <div class="product" id="product">
+        <img src="GRAY.jpg" alt="" class="productImg">
+        <div class="productDetails">
+            <h1 class="productTitle">DRESS</h1>
+            <h2 class="productPrice">₱120</h2>
+            <p class="productDesc">Lorem ipsum dolor sit amet consectetur impal adipisicing elit. Alias assumenda
+                dolorum
+                doloremque sapiente aliquid aperiam.</p>
+            <div class="colors">
+                <div class="color"></div>
+                <div class="color"></div>
+            </div>
+            <button class="productButton">BUY NOW!</button>
+        </div>
+        <div id="message" class="message"></div>
+        <div class="payment">
+            <h1 class="payTitle">Personal Information</h1>
+            <label>Name and Surname</label>
+            <input type="text" id="name" placeholder="John Doe" class="payInput">
+            <label>Phone Number</label>
+            <input type="text" id="phone" placeholder="+1 234 5678" class="payInput">
+            <label>Address</label>
+            <input type="text" id="address" placeholder="Elton St 21 22-145" class="payInput">
+            <h1 class="payTitle">Card Information</h1>
+            <div class="cardIcons">
+                <img src="card.png" alt="" width="40" class="cardIcon">
+            </div>
+            <input type="password" id="cardNumber" class="payInput" placeholder="Card Number">
+            <div class="cardInfo">
+                <input type="text" id="expiryMonth" placeholder="mm" class="payInput sm">
+                <input type="text" id="expiryYear" placeholder="yyyy" class="payInput sm">
+                <input type="text" id="cvv" placeholder="cvv" class="payInput sm">
+            </div>
+            <button class="payButton" id="checkoutBtn">Checkout!</button>
+            <span class="close" id="closeBtn">X</span>
+        </div>
+        <script src="../js/script.js"></script>     
+    </div>
+    <div class="gallery">
+        <div class="galleryItem">
+            <h1 class="galleryTitle">Be Yourself!</h1>
+            <img src="dress1.jpg"
+                alt="" class="galleryImg">
+        </div>
+        <div class="galleryItem">
+            <img src="dress2.jpg"
+                alt="" class="galleryImg">
+            <h1 class="galleryTitle">This is the First Day of Your New Life</h1>
+        </div>
+        <div class="galleryItem">
+            <h1 class="galleryTitle">Just Do it!</h1>
+            <img src="dress3.jpg"
+                alt="" class="galleryImg">
+        </div>
+    </div>
+    <div class="newSeason">
+        <div class="nsItem">
+            <img src="Newarrival1.jpg"
+                alt="" class="nsImg">
+        </div>
+        <div class="nsItem">
+            <h3 class="nsTitleSm">NEW ARRIVALS</h3>
+            <h1 class="nsTitle">New Collection</h1>
+            <a href="#nav">
+                <button class="nsButton">CHOOSE YOUR STYLE</button>
+            </a>
+        </div>
+        <div class="nsItem">
+            <img src="Newarrival.jpg"
+                alt="" class="nsImg">
+        </div>
+    </div>
+    <footer>
+        <div class="footerLeft">
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">About Us</h1>
+                <ul class="fList">
+                    <li class="fListItem">Contact</li>
+                    <li class="fListItem">Careers</li>
+                    <li class="fListItem">Affiliates</li>
+                    <li class="fListItem">Stores</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Useful Links</h1>
+                <ul class="fList">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="ABOUT PAGE.html">About</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Products</h1>
+                <ul class="fList">
+                    <li class="fListItem">Dress</li>
+                    <li class="fListItem">Shirts</li>
+                    <li class="fListItem">Slacks</li>
+                    <li class="fListItem">Shoes</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerRight">
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Subscribe to our newsletter</h1>
+                <div class="fMail">
+                    <input type="text" placeholder="your@email.com" class="fInput">
+                    <button class="fButton">Join!</button>
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Follow Us</h1>
+                <div class="fIcons">
+                    <a href="https://www.facebook.com/profile.php?id=61557809037702" target="_blank" rel="noopener noreferrer">
+                        <img src="fblogo.png" alt="Facebook" class="fIcon">
+                    </a>
+                </div>
+            </div>            
+            <div class="footerRightMenu">
+                <span class="copyright">@ORANGEGROUP. All rights reserved. 2023.</span>
+            </div>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>

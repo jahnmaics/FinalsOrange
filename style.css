@@ -1,0 +1,122 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f5f2;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #e6dcc8;
+    color: #333;
+    padding: 10px 0;
+}
+
+header .logo {
+    float: left;
+    width: 60px;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a.active {
+    text-decoration: underline;
+}
+
+.about-intro, .about-values, .about-gallery {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.about-intro p, .about-values p {
+    max-width: 600px;
+    margin: auto;
+}
+
+.values-item {
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery img {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+footer {
+    background: #e6dcc8;
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin: 5px 0;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+footer form {
+    margin-top: 10px;
+}
+
+footer form input {
+    padding: 10px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer form button {
+    padding: 10px 15px;
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
